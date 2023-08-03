@@ -19,6 +19,9 @@ export default {
       sceneModePicker: true,
       navigationHelpButton: true,
     });
+    ANOVGIS.WidgetsControl.showAllControls({
+      index: 4,
+    });
   },
 };
 </script>
@@ -26,7 +29,7 @@ export default {
 <style>
 html,
 body,
-#app {
+#cesiumContainer {
   margin: 0;
   padding: 0;
   width: 100%;
