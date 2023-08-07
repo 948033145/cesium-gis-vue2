@@ -5,8 +5,6 @@
 <script>
 import "anov-gis-sdk/dist/anov-gis-sdk/index.css";
 import ANOVGIS from "anov-gis-sdk/dist/anov-gis-sdk/anov-gis-sdk.js";
-global.ANOVGIS = ANOVGIS;
-
 export default {
   name: "App",
   components: {},
