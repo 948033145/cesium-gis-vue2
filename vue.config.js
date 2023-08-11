@@ -1,7 +1,6 @@
 const { defineConfig } = require('@vue/cli-service')
 const CopywebpackPlugin = require('copy-webpack-plugin');
-const path = require('path');
-const cesiumSourcePath = 'node_modules/@anov/gis/dist';
+const cesiumSourcePath = 'node_modules/@anov/gis/dist/resources';
 module.exports = defineConfig({
   transpileDependencies: true,
   lintOnSave: false,
@@ -11,7 +10,7 @@ module.exports = defineConfig({
         new CopywebpackPlugin({
           patterns: [
             {
-              from: path.join(cesiumSourcePath, '/resources'),
+              from: cesiumSourcePath,
               to: 'anov-gis-sdk/resources',
             },
           ]
