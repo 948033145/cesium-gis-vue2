@@ -3,8 +3,8 @@
 </template>
 
 <script>
-import "anov-gis-sdk/dist/anov-gis-sdk/index.css";
-import ANOVGIS from "anov-gis-sdk/dist/anov-gis-sdk/anov-gis-sdk.js";
+import "@anov/gis/dist/index.css";
+import ANOVGIS from "@anov/gis";
 export default {
   name: "App",
   components: {},

@@ -24,6 +24,11 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
+"@anov/gis@^1.2.0":
+  "integrity" "sha512-eMAJjvzkSaT3Lf8oLzbe0mZg0wYBPqlZdkD+rrYMuqGhT9OHjaJgHPCe2ixuW7OzLE0NsSkkzx3YjN+DsHozgw=="
+  "resolved" "https://registry.npmjs.org/@anov/gis/-/gis-1.2.0.tgz"
+  "version" "1.2.0"
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.22.5":
   "integrity" "sha512-Xmwn266vad+6DAqEB2A6V/CcZVp62BbwVmcOJc2RPuwih1kw02TjQvWVWlcKGbBPd+8/0V5DEkOcizRGYsspYQ=="
   "resolved" "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.22.5.tgz"
@@ -1871,11 +1876,6 @@
     "json-schema-traverse" "^1.0.0"
     "require-from-string" "^2.0.2"
     "uri-js" "^4.2.2"
-
-"anov-gis-sdk@^1.1.0":
-  "integrity" "sha512-G735tlwc1xS3oUwSm9HOITwzSqD2G8O+gixh5JEdDQGVBkOEjuVzwqb5ENd5i4X7EL3OdEjjwJvhznXz9uLwbg=="
-  "resolved" "https://registry.npmjs.org/anov-gis-sdk/-/anov-gis-sdk-1.1.0.tgz"
-  "version" "1.1.0"
 
 "ansi-colors@^4.1.1":
   "integrity" "sha512-/6w/C21Pm1A7aZitlI5Ni/2J6FFQN8i1Cvz3kHABAAbw93v/NlvKdVOqz7CCWz/3iv/JplRSEEZ83XION15ovw=="
