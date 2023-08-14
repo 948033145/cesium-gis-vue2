@@ -9,8 +9,8 @@ export default {
   name: "App",
   components: {},
   mounted() {
-    const cesiumSourcePath = 'http://localhost:8080/resources/';
-    ANOVGIS.setBaseUrl(cesiumSourcePath);
+    // const cesiumSourcePath = 'http://localhost:8080/resources/';
+    // ANOVGIS.setBaseUrl(cesiumSourcePath);
     window.viewer = new ANOVGIS.Viewer("cesiumContainer", {
       vrButton: false,
       baseLayerPicker: true,
