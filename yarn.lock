@@ -24,10 +24,10 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@anov/gis@^1.2.0":
-  "integrity" "sha512-eMAJjvzkSaT3Lf8oLzbe0mZg0wYBPqlZdkD+rrYMuqGhT9OHjaJgHPCe2ixuW7OzLE0NsSkkzx3YjN+DsHozgw=="
-  "resolved" "https://registry.npmjs.org/@anov/gis/-/gis-1.2.0.tgz"
-  "version" "1.2.0"
+"@anov/gis@^1.6.1":
+  "integrity" "sha512-Y3/+me0bopD4Ru1kmc4P/coAzWqiUNDhKj8oEcKaTPcMHIOXq8Z+Q6t6rru564tRJU7Ar3zoY5Q6Qv19jwOG3Q=="
+  "resolved" "https://registry.npmjs.org/@anov/gis/-/gis-1.6.1.tgz"
+  "version" "1.6.1"
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.22.5":
   "integrity" "sha512-Xmwn266vad+6DAqEB2A6V/CcZVp62BbwVmcOJc2RPuwih1kw02TjQvWVWlcKGbBPd+8/0V5DEkOcizRGYsspYQ=="

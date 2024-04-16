@@ -9,18 +9,19 @@ export default {
   name: "App",
   components: {},
   mounted() {
-    // const cesiumSourcePath = 'http://localhost:8080/resources/';
-    // ANOVGIS.setBaseUrl(cesiumSourcePath);
     window.viewer = new ANOVGIS.Viewer("cesiumContainer", {
+      geocoderType: ANOVGIS.GeocoderType.TIANDITU,
       vrButton: false,
       baseLayerPicker: true,
       fullscreenButton: true,
       homeButton: true,
       sceneModePicker: true,
       navigationHelpButton: true,
+      copyRight: false,
+      showMapInfo: true,
     });
-    ANOVGIS.WidgetsControl.showAllControls({
-      index: 4,
+    viewer.setOptions({
+      showAtmosphere: false,
     });
   },
 };
